@@ -1,0 +1,11 @@
+{
+  "name": "hospital-bed-management-root",
+  "version": "1.0.0",
+  "description": "Root package runner for Glitch/Render deployment",
+  "main": "server/server.js",
+  "scripts": {
+    "postinstall": "npm install --prefix server",
+    "start": "node server/server.js"
+  },
+  "dependencies": {}
+}
