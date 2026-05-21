@@ -24,6 +24,14 @@ app.use((req, res, next) => {
 });
 
 // Routes
+app.get('/', (req, res) => {
+  res.json({
+    status: 'online',
+    message: 'Welcome to SmartBed API',
+    docs: 'Endpoints available at /api/beds, /api/patients, /api/auth'
+  });
+});
+
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/beds', require('./routes/bedRoutes'));
 app.use('/api/patients', require('./routes/patientRoutes'));
