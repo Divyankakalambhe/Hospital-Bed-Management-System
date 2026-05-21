@@ -73,7 +73,7 @@ const Login = () => {
           </div>
 
           <div className="text-center mb-5">
-            <h2 className="text-xl font-bold text-text-primary">Staff Login</h2>
+            <h2 className="text-xl font-bold text-text-primary"> Welcome! </h2>
             <p className="text-[11px] text-text-muted mt-1">Access the Bed Allocation & Reports Panel</p>
           </div>
 
