@@ -4,7 +4,6 @@ A real-time, responsive hospital bed management dashboard built with React (Vite
 
 ## 🚀 Live Demo
 * **Frontend (Website):** [https://smartbed-frontend.vercel.app](https://smartbed-frontend.vercel.app)
-* **Backend API:** [https://smartbed-backend.vercel.app](https://smartbed-backend.vercel.app)
 
 ### 🔐 Demo Credentials
 * **Hospital:** City Care Hospital
